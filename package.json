@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AlreadyBored/node-nodejs-basics/issues"
   },
-  "homepage": "https://github.com/AlreadyBored/node-nodejs-basics#readme"
+  "homepage": "https://github.com/AlreadyBored/node-nodejs-basics#readme",
+  "scripts": {
+    "create": "node -e 'require(\"./fs/create\").create()'"
+  }
 }
